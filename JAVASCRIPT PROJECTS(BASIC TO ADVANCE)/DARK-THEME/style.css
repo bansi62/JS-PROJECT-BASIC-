@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: var(--primary-color);
+}
+:root{
+    --primary-color:#fff;
+    --secondary-color:black;
+}
+.dark-theme{
+     --primary-color:black;
+     --secondary-color:#fff;
+}
+.nav-container{
+/* border: 1px solid red; */
+padding: 1rem;
+}
+.navbar{
+/* border: 1px solid yellow; */
+max-width: 1280px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+/* margin: 0 auto; */
+padding: 1rem 1rem;
+}
+.comp-name{
+    font-size: 2rem;
+    font-weight: bold;
+   
+    color: var(--secondary-color);
+}
+ul{
+    display: flex;
+    gap: 1.8rem;
+    list-style: none;
+    font-weight: bold;
+   
+  
+}
+ul li{
+    color: var(--secondary-color);
+}
+#icon{
+width: 25px;
+cursor: pointer;
+
+
+}

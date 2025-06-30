@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(71, 27, 71, 0.952);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.input-box{
+    border: 1px solid red;
+    background: #fff;
+    width: 90%;
+    max-width: 400px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    
+}
+.input-box img{
+width: 30px;
+cursor: pointer;
+}
+.input-box input{
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    outline: none;
+    font-size: 24px;
+    color:#555;
+
+}
+
